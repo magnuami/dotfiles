@@ -1,23 +1,25 @@
 # dotfiles
 
-Tmux hotkeys:
+# Tmux cheatsheet
 
-Ctrl + a              -- leader
-leader c              -- new window
-leader n              -- cycle through windows
-leader number         -- switch to window
-leader v              -- vertical split pane
-leader s              -- horizontal split pane
-leader + h/j/k/l      -- navigate between split windows
-leader :              -- command mode
-rename-window newname -- rename window command  
-leader d              -- detatch tmux
-tmux ls               -- show active tmux sessions
-tmux a                -- attatch to last session
-tmux a -t work        -- attach to specific session
-leader w              -- list and select tmux sessions
-leader &              -- kill current window
-leader x              -- kill current pane
-tmux new-session -s work -- create tmux session with name
+| Commands  | Description  |
+|---|---|
+| Ctrl + a  | Leader  |
+| Leader, c  | New tmux window  |
+| Leader, n | Cycle through windows  |
+| Leader, (number)  | Switch to specific window  |
+| Leader, v   | Vertical split pane  |
+| Leader, s  | Horizontal split pane  |
+| Leader + h/j/k/l | Navigate between split panes |
+| Leader, : | Command mode |
+| rename-window (newname) | Rename window command |
+| Leader, d | Detatch tmux session |
+| Leader, w | List and select tmux sessions |
+| Leader, & | Kill current window |
+| Leader, x | Kill current pane |
+| tmux ls | Show active tmux sessions |
+| tmux a | Attach to last session |
+| tmux a -t (name) | Attatch to specific session |
+| tmux new-session -s (name) | Create tmux session with specific name |
 
-Neovim hotkeys:
+# Neovim cheatsheet
