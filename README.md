@@ -1,6 +1,6 @@
 # dotfiles
 
-# Tmux cheatsheet
+## Tmux cheatsheet
 
 | Commands  | Description  |
 |---|---|
@@ -22,4 +22,4 @@
 | tmux a -t (name) | Attatch to specific session |
 | tmux new-session -s (name) | Create tmux session with specific name |
 
-# Neovim cheatsheet
+## Neovim cheatsheet
